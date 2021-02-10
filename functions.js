@@ -11,7 +11,13 @@
 // 
 // console.log(MaxNr)
 
-function max(nrt1, nr2){
-    if(nr1 > nr2)
-    return nr1;
+function max(nr1, nr2){
+    if (nr1 > nr2) {
+    return nr1 * 10;
+    } else {
+        return nr2 * 10;
+    }
 }
+
+let inbox = max(3, 50);
+console.log(inbox)
