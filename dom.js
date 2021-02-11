@@ -1,0 +1,1 @@
+document.title = "We changed it"
