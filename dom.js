@@ -1,8 +1,11 @@
-// const headers = document.getElementsByTagName("h2");
-// const list = document.getElementsByClassName("item");
-// const button = document.getElementById("submit")
+const collectionItems = document.getElementsByClassName("item");
+const todoList = document.getElementById("todoList");
+const todoNr = document.getElementsByClassName("todo-nr")[0];
 
-const headers = document.querySelectorAll("h2")
-const list = document.querySelectorAll("item")
+const newItem = document.createElement('li');
+newItem.classList.add("item");
+newItem.innerText = "Item 4";
 
-console.log(headers);
+todolist.appendChild(newItem);
+
+//Update the amount of items that we have
