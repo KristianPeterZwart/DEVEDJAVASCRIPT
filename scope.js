@@ -1,3 +1,5 @@
+// USING VAR IS OUTDATED AND DANGEROUS
+
 // GLOBAL SCOPE
     let food = 'apple'
     let fruits = 5
@@ -13,8 +15,8 @@ function store() {
 
 
     // BLOCK SCOPE
-for (let x = 0; x < 10; x++) {
-    console.log(fruits)
-}
-
+// for (let x = 0; x < 10; x++) {
+    // console.log(fruits)
+// }
+// 
 console.log("Global" + x)
