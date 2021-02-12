@@ -1,5 +1,6 @@
 const button = document.querySelector("#submit");
 const todoList = document.querySelector("#todo-list");
+const todoNr = document.querySelector(".todo-nr b");
 const items = todoList.children;
 
 // CLICK, SCROLL. RESIZING THE BROWSER
@@ -11,5 +12,7 @@ button.addEventListener("click", function() {
     newItem.classList.add("item");
     newItem.innerText = "Item 3";
     todoList.appendChild(newItem);
-    console.log(newItem.classList);
-});
+    todoNr.innerText = items.length;
+})
+
+
