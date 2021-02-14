@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   body {
-    background-image: linear-gradient(120deg, #6f00ff 0%, #d350fb 100%);
+    background-image: linear-gradient(120deg, #6f00ff 0%, #8607ac 100%);
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -12,7 +12,8 @@
   header {
     font-size: 2rem;
   }
-  
+
+
   header,
   form {
     min-height: 20vh;
@@ -131,6 +132,7 @@
     cursor: pointer;
     pointer-events: none;
   }
+
   /* Transition */
   /*
   .select:hover::after {
